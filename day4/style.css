@@ -1,0 +1,81 @@
+@charset "utf-8";
+.resume{
+	letter-spacing:15px;
+	text-align:center;
+}
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+#page{
+	width:600px;
+	height:730px;
+	background:#ccc;
+	margin:auto;
+	padding:5px 50px;
+	background-image:url(images/timg.jpg);
+	border:1px solid black;
+}
+#page .head{
+	display:block;
+	clear:both;
+	content:"";
+}
+#page .head{
+	width:600px;
+	height:200px;
+	
+	margin:auto;
+	position:relative;
+}
+#page .head .head_left{
+	width:100px;
+	height:100px;
+	background:#fff;
+	float:left;
+	position:relative;
+	top:40px;
+	left:30px;
+}
+#page .head .head_left img{
+	width:100px;
+	height:100px;
+}
+#page .head .head_right{
+	width:360px;
+	height:200px;
+	
+	float:right;
+	position:relative;
+	right:30px;
+}
+
+#page .head .head_right .left1{
+	width:180px;
+	height:200px;
+	position:relative;
+	left:10px;
+	float:left;
+}
+#page .head .head_right .right1{
+	width:180px;
+	height:200px;
+	float:right;
+	
+}
+#page .head .head_right .p1{
+	font-weight:bold;
+}
+#page .exprience{
+	margin-top:10px;
+	
+}
+
+
+#page .work{
+	margin-top:20px;
+}
+#page .work div{
+	margin-left:30px;
+}
