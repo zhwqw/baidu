@@ -4,7 +4,8 @@
   背景色：background-color:gray;背景图片:  
   background-image:url(图片地址); 背景重复:background-repeat:repeat-y;可以向x,y方向来重复背景图片。
 
-  任务|关键词
+  值|描述
   ---|---
-  123|123
+  repeat|默认。背景图像将在垂直和水平方向重复
+  repeat-x|背景图像将在水平方向重复
   
