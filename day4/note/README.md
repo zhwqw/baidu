@@ -56,5 +56,43 @@ background-image:url(),rul();
 background-repeat:no-repeat,repeat;  
 ## 背景尺寸  
 background-size:16px 16px;  
+## CSS边框  
+每一个边框都有3个方面:宽度,样式，以及颜色。  
+边框绘制在元素的背景之上。  
+### 边框的样式  
+border-style:.....  
+例如:可以把一幅图片的边框定义为outset，使之看上去像是凸起按钮。  
+a:like img{border-style:outset}  
+### 定义多种样式  
+例如:可以为一个边框定义多个样式  
+p{border-style:solid dotted dashed double}  
+### 定义单边样式  
+border-top-style:......  
+border-right-style:  
+border-bottom-style:  
+border-left-style:  
+### 边框的宽度  
+border-width:......  
+例如:border-width:20px;border-width:thin;border-width:medium;border-width:thick;  
+### 定义单边宽度  
+可以按照top-right-bottom-left  
+p{border-style:solid;border-width:15px 4px 4px 3px;}  
+也可以通过如何的例子:  
+border-top-width:  
+border-right-width:  
+border-bottom-width:  
+border-left-width:  
+### 边框很重要的地方  
+记得写上边框的样式，如果不写边框的样式，那么就不会显示边框。因此，如果你希望边框出现，就必须声明一个边框的样式。  
+### 边框的颜色  
+border-color:...  
+一次可以接受最多4个颜色值。可以使用任何类型的颜色值 ，例如命名颜色也可以是十六进制的颜色  
+border-color:blue rgb(25%,45%,34%) #bbb red;  
+### 定义但边框颜色  
+border-top-color:......  
+### 透明边框  
+border-color:transparent;  
+
+
 
  
