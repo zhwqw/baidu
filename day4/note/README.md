@@ -9,5 +9,8 @@
   repeat|默认。背景图像将在垂直和水平方向重复
   repeat-x|背景图像将在水平方向重复
 
-  
+
   ![Alt text](images/b_css.png)
+  背景图片的位置:background-position:
+  你需要把background-attachment属性设置为"fixed"，才能保证该属性在Firefox和Opera 正常工作
+  ![Alt text](images/css_b.png)
