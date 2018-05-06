@@ -8,4 +8,4 @@
   ---|---
   repeat|默认。背景图像将在垂直和水平方向重复
   repeat-x|背景图像将在水平方向重复
-  
+  ![Alt text](images/b_css.png)
