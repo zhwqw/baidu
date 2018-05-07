@@ -110,6 +110,17 @@ border-left-radius:
 border-top-radius:  
 border-bottom-left-radius:  
 border-bottom-right-radius:  
+## 链接  
+a:link{color:#F00000;}为被被访问的链接  
+a:visited{color:#00ff99;}已经被访问的链接  
+a:hover{color:blue;}鼠标指针移动到的链接  
+a:active{color:#ccc;}  
+当为链接的不同状态设置样式时，顺序是不同的  
+a:hover必须位于a:link和a:visited之后  
+a:active必须位于a:hover之后  
+text-decoration:用于去掉链接中的下划线  
+ 
+
 
 
 
