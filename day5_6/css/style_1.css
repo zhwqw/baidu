@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style: none;
+}
+.main{  
+    width:700px;
+    height:890px;
+    border:1px solid #ccc;
+    margin:10px auto;
+    padding-left:10px;
+    padding-top:20px;
+    opacity:0.7;
+}
+ul li{
+    margin-top:30px;
+}
+.information_li .span2{
+    margin-left:25px;
+}
+.information_li .span3{
+    margin-left:25px;
+}
+.button{
+    width:210px;
+    height:30px;
+    margin:10px auto;
+}
+.button a:hover{
+    background:#ccc;
+}
+

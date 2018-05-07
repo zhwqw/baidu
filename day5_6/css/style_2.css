@@ -1,0 +1,55 @@
+@charset "utf-8";
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style: none;
+}
+/*清除浮动*/
+.content_main::after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height:0px;
+}
+.content_main{
+    zoom:1;
+}  
+.content_main{
+    width:840px;
+    height:890px;
+    margin:10px auto;
+}
+.left{
+    width:210px;
+    height:890px;
+    background:#75a5f4;
+    color:white;
+    float:left;
+}
+.left h1{
+    margin-top:60px;
+    margin-left:60px;
+    
+}
+.main{  
+    width:600px;
+    height:890px;
+    
+    padding-left:10px;
+   
+    opacity:0.7;
+    float:right;
+}
+ul li{
+    margin-top:30px;
+}
+.information_li .span2{
+    margin-left:25px;
+}
+.information_li .span3{
+    margin-left:25px;
+}
+

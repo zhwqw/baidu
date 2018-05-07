@@ -1,0 +1,71 @@
+@charset "utf-8";
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style: none;
+}
+/*清除浮动*/
+.li2_div::after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height:0px;
+}
+.li2_div{
+    zoom:1;
+}  
+.main{
+    width:1100px;
+   border-right: 1px solid #ccc;
+    margin:10px auto;
+}
+.main ul li .head{
+    width:1100px;
+    height:50px;
+    background:#858585;
+}
+.main ul li .head h1{
+    color:white;
+    font-size:25px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.main ul li .li2_div{
+    width:1100px;
+    height:100px;
+    background:white;
+   
+}
+.main ul li .li2_div .right{
+    border-bottom:1px solid #ccc;
+}
+.main ul li .li2_div .left{
+    width:100px;
+    height:100px;
+    float:left;
+    background:#d6d6d6;
+}
+.main ul li .li2_div .left b{
+    margin-top:30px;
+    margin-left:10px;
+    display:block;
+}
+.main ul li .li2_div .right{
+    width:999px;
+    height:100px;
+    
+    float:right;
+    
+}
+.main ul li .li2_div .right b{
+    margin-left:20px;
+}
+.main ul li .li2_div .right .span2{
+    margin-left:20px;
+}
+ul li{
+    margin-top:1px;
+}
