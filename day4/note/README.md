@@ -92,6 +92,25 @@ border-color:blue rgb(25%,45%,34%) #bbb red;
 border-top-color:......  
 ### 透明边框  
 border-color:transparent;  
+## 使用css的样式边框  
+### 边界半径  
+border-radius:50%;可以生成一个正圆  
+border-radius:20px;  
+在不同的角落放置不同的大小的边界半径，你可以指定两个，三个或四个值，就想你使用paddding and  margin一样  
+border-radius:20px 10px;  
+border-radius:20px 10px 50px;  
+border-radius:20px 10px 50px 0;  
+### 椭圆形角  
+你可以创建椭圆形角(x半径和y半径不同)。两个不同的半径用正斜杠(/)分隔  
+border-radius:10px / 20px;  
+border-radius:10px 30px / 20px 40px;  
+注意:你可以使用任何长度单位来制定边界半径，例如:px,rems,%  
+还可以使用普通的写法设置属性，分别设置边框的每一个边界半径:  
+border-left-radius:  
+border-top-radius:  
+border-bottom-left-radius:  
+border-bottom-right-radius:  
+
 
 
 
