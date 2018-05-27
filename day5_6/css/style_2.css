@@ -52,4 +52,11 @@ ul li{
 .information_li .span3{
     margin-left:25px;
 }
-
+.button{
+    width:210px;
+    height:30px;
+    margin:10px auto;
+}
+.button a:hover{
+    background:#ccc;
+}

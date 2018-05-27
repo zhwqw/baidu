@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tabbed info box</title>
+  <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #main:after{
+            content:" ";
+            display:block;
+            height:0px;
+            clear:both;
+        }
+        #main{
+           height:500px;
+        }
+        #main .left{
+            width:30%;
+            height:100%;
+            background-color:blue;
+            float:left;
+            margin-right:50px;
+        }
+        #main .right{
+            height:100%;
+            background:red;
+           
+           
+        }
+  </style>
+</head>
+<body>
+        <div id="main">
+           
+            <div class="left"> <a href="index.html">index</a></div>
+            <div class="right"></div>
+        </div>
+</body>
+</html>
